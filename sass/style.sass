@@ -1,0 +1,138 @@
+html
+    font-size: 16px
+    
+*
+    font-family: Roboto, sans-serif
+
+h2
+    font-size: 2.2rem
+    margin: 0 auto
+    margin-top: 4rem
+
+.header
+    height: 8rem
+    display: flex
+    align-items: center
+    a
+        color: white
+        &:hover
+            text-decoration: none
+    &_logotxt
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 100%
+        a
+            font-size: 1.6rem
+            font-weight: 500
+    &_nav
+        height: 100%
+        padding-top: 1rem
+        ul
+            height: 100%
+            display: flex
+            justify-content: center
+            list-style-type: none
+            li
+                margin-right: 2rem
+                a
+                    font-size: 0.95rem
+                    font-weight: 400
+    &_phone
+        display: flex
+        justify-content: center
+        &_icon
+            margin-right: 0.5rem
+            img
+                height: 1.1rem
+        &_number
+            font-size: 1.3rem
+            font-weight: 500
+    &_recall
+        display: flex
+        justify-content: center
+        a
+            font-size: 0.95rem
+            font-weight: 400
+            text-decoration: underline
+            &:hover
+                text-decoration: underline
+
+.main
+    background: url('/img/main_bg.jpg') center center/cover no-repeat
+    height: 40rem
+    padding-top: 8rem
+    margin-top: -8rem
+    &_title
+        h1
+            color: white
+            font-size: 3.5rem
+            font-weight: 900
+            line-height: 3.5rem
+            margin-bottom: 1rem
+    &_subtitle
+        color: white
+        font-size: 1.65rem
+        font-weight: 400
+        line-height: 2rem
+        margin-bottom: 1.2rem
+    &_button
+        background: none
+        color: white
+        font-size: 1.35rem
+        font-weight: 400
+        width: 15rem
+        height: 4rem
+        border: solid 2px white
+        border-radius: 15px
+        cursor: pointer
+        &:hover
+            background: white
+            color: gray
+
+.rent
+    text-align: center
+    padding-bottom: 4rem
+    &_card
+        margin: 0 auto
+        max-width: 15.9rem
+        margin-top: 3rem
+        border: 1px solid #E1E1E1
+        border-radius: 10px
+        &_pic
+            margin-bottom: 1.5rem
+            border-radius: 10px
+            img
+                width: 100%
+        &_title
+            margin-bottom: 0.6rem
+            font-size: 1.15rem
+            font-weight: 400
+        &_price
+            margin-bottom: 0.6rem
+            font-size: 1.5rem
+            font-weight: 700
+        &_details
+            margin-bottom: 1rem
+            font-size: 0.9rem
+            font-weight: 300
+            text-decoration: underline
+        &_button
+            margin-bottom: 1rem
+            font-size: 0.9rem
+            font-weight: 400
+            color: #183E87
+            background: none
+            border: 1px solid #183E87
+            width: 10rem
+            margin: 0 auto
+            border-radius: 5px
+            height: 2.2rem
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-bottom: 1.6rem
+            cursor: pointer
+            &:hover
+                background: #183E87
+                color: white
