@@ -71,7 +71,7 @@ h3
             text-decoration: none
     &_logotxt
         display: flex
-        justify-content: center
+        justify-content: start
         align-items: center
         height: 100%
         a
@@ -242,6 +242,76 @@ h3
         flex-direction: column
         align-items: center
         justify-content: center
+        input
+            width: 100%
+            height: 2.2rem
+            border-radius: 5px
+            border: none
+            padding-left: 1.2rem
+            &::placeholder
+                //color: red
+        button
+            margin-top: 0.5rem
+            font-size: 1rem
+            font-weight: 400
+            color: white
+            background: none
+            border: 1px solid white
+            width: 15rem
+            border-radius: 5px
+            height: 3rem
+            cursor: pointer
+            &:hover
+                background: white
+                color: #183E87
         &>*
             margin-bottom: 1rem
 
+.contacts
+    padding-bottom: 3rem
+    &_text
+        height: 100%
+        margin-top: 2rem
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        &_bold
+            margin-bottom: 0.3rem
+            font-size: 1.2rem
+            font-weight: 500
+        &_light
+            margin-bottom: 2rem
+            font-size: 1rem
+            font-weight: 300
+        &_button
+            width: 10rem
+            height: 2.5rem
+            color: white
+            background: #183E87
+            border-radius: 5px
+            font-size: 0.9rem
+            display: flex
+            justify-content: center
+            align-items: center
+        a
+            display: block
+    &_map
+        margin-top: 4rem
+        display: flex
+        justify-content: center
+    
+
+.footer
+    height: 4rem
+    background: #183E87
+    display: flex
+    justify-content: center
+    align-items: center
+    &_text
+        color: white
+        font-size: 0.8rem
+
+        
+
+@import 'media'

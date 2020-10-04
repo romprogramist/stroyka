@@ -20,12 +20,12 @@
     <header class="header">
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div class="col-8 col-sm-6 col-md-5 col-lg-4">
             <div class="header_logotxt">
               <a href="index.html">ЗАО МехТрансСтрой</a>
             </div>
           </div>
-          <div class="col-5">
+          <div class="d-none d-lg-block col-lg-5">
             <nav class="header_nav">
               <ul>
                 <li>
@@ -40,7 +40,7 @@
               </ul>
             </nav>
           </div>
-          <div class="col-3">
+          <div class="d-none d-md-block col-md-5 col-lg-3">
             <div class="header_phone">
               <div class="header_phone_icon">
                 <img src="/img/Phone_icon.png" alt="Иконка телефона" />
@@ -196,12 +196,12 @@
 
           <div class="services_card card_hover">
             <div class="row">
-              <div class="col-2">
+              <div class="col-lg-2">
                 <div class="services_card_icon">
                   <img src="/img/asphalt_ico.png" alt="Каток" />
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="services_card_text">
                   <h3>Устройство проезжей части</h3>
                   <ul>
@@ -214,7 +214,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="hided">
                   <div class="hided_shadow right_rounded">
                     <button class="hided_shadow_button">Заказать</button>
@@ -229,7 +229,7 @@
 
           <div class="services_card card_hover">
             <div class="row">
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="hided">
                   <div class="hided_shadow left_rounded">
                     <button class="hided_shadow_button">Заказать</button>
@@ -239,7 +239,7 @@
                   <img src="/img/trotuar.jpg" alt="Асфальт" />
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="services_card_text text_right">
                   <h3>Устройство тротуара</h3>
                   <ul>
@@ -252,7 +252,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2">
                 <div class="services_card_icon">
                   <img src="/img/trotuar_ico.png" alt="Манипулятор" />
                 </div>
@@ -262,12 +262,12 @@
 
           <div class="services_card card_hover">
             <div class="row">
-              <div class="col-2">
+              <div class="col-lg-2">
                 <div class="services_card_icon">
                   <img src="/img/gazon_ico.png" alt="Строительные работы" />
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="services_card_text">
                   <h3>Газон</h3>
                   <ul>
@@ -276,7 +276,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="hided">
                   <div class="hided_shadow right_rounded">
                     <button class="hided_shadow_button">Заказать</button>
@@ -291,7 +291,7 @@
 
           <div class="services_card card_hover">
             <div class="row">
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="hided">
                   <div class="hided_shadow left_rounded">
                     <button class="hided_shadow_button">Заказать</button>
@@ -301,7 +301,7 @@
                   <img src="/img/otmostki.jpg" alt="Отмостки" />
                 </div>
               </div>
-              <div class="col-5">
+              <div class="col-lg-5">
                 <div class="services_card_text text_right">
                   <h3>Устройство отмостки вокруг здания</h3>
                   <ul>
@@ -312,7 +312,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-2">
+              <div class="col-lg-2">
                 <div class="services_card_icon">
                   <img src="/img/otmostki_ico.png" alt="Молоток" />
                 </div>
@@ -333,19 +333,66 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-6 offset-3">
+            <div
+              class="col-12 offset-sm-1 col-sm-10 offset-md-2 col-md-8 col-lg-6 offset-lg-3"
+            >
               <form class="request_form">
-                <input type="text" name="Name" id="" />
-                <input type="text" name="Telephone" id="" />
+                <input type="text" name="Name" id="" placeholder="Ваше имя" />
+                <input
+                  type="text"
+                  name="Telephone"
+                  id=""
+                  placeholder="Номер телефона"
+                />
                 <button>Оставить заявку</button>
               </form>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="contacts">
+        <div class="container">
+          <div class="row">
+            <h2>Контакты</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="contacts_text">
+                <div class="contacts_text_bold">Адрес:</div>
+                <div class="contacts_text_light">
+                  г. Москва, ул. 2-я Магистральная, 14а
+                </div>
+                <div class="contacts_text_bold">График работы:</div>
+                <div class="contacts_text_light">
+                  ПН - ПТ с 10:00 до 19:00<br />
+                  СБ-ВС - выходной
+                </div>
+                <div class="contacts_text_bold">Телефон:</div>
+                <div class="contacts_text_light">+79034061814</div>
+                <a href="tel:+7 (903) 406-18-14"
+                  ><div class="contacts_text_button">Позвонить</div></a
+                >
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="contacts_map">
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3A13f98a486602dead88e71d62404a534f3c05569470bfbff897cc5adcd5c2c9a9&amp;source=constructor"
+                  width="100%"
+                  height="410"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer_text">ЗАО МехТрансСтрой 2020г.</div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
