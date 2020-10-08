@@ -1,28 +1,98 @@
 @media screen and ( max-width: 992px )
-    html
-        font-size: 14px
+    .services
+        &_card
+            &_text
+                padding-left: 2rem
+                padding-right: 2rem    
         
 @media screen and ( max-width: 768px )
     h2
         font-size: 2rem
-    
+    .header
+        &_logotxt
+            a
+                font-size: 1.4rem
+    .main
+        height: 34rem
+    .contacts
+        &_text
+            a
+                padding-bottom: 4rem
+    .services
+        &_card
+            &_text
+                margin-bottom: 1rem
+                ul
+                    list-style-type: disc
+                    padding-left: 1.4rem
+                    li
+            &_img
+                max-height: 10rem
+                img
+                    width: 100%
+    .right_rounded, .left_rounded
+        border-radius: 10px 10px 0 0
+    .text_right
+        text-align: left        
 
 @media screen and ( max-width: 576px )
-    html
-        font-size: 16px
     section
-        padding: 0 1rem
+        padding-left: 1rem
+        padding-right: 1rem
     h2
         font-size: 1.8rem
-    
-   
-@media screen and ( max-width: 400px )
+    .header
+        height: 6rem
+        &_logotxt
+            a
+                font-size: 1.2rem
+                padding-left: 1rem
     .main
+        height: 30rem
+        margin-top: -6rem
+        padding-top: 6rem
         &_title
             h1
                 font-size: 3rem
         &_subtitle
             font-size: 1.4rem
+        &_button
+            font-size: 1.1rem
+            width: 12rem
+            height: 3rem
+            border-radius: 10px
+    .rent
+        &_card
+            max-width: 10rem
+    .request
+        input
+            height: 2.7rem   
+   
+@media screen and ( max-width: 400px )
+    section
+        padding-left: 0.2rem
+        padding-right: 0.2rem
+    .header
+        &_logotxt
+            a
+                font-size: 1.1rem
+                padding-left: 0.2rem
+    .main
+        &_title
+            h1
+                font-size: 2.3rem
+                line-height: 2.6rem
+        &_subtitle
+            font-size: 1.4rem
+            line-height: 1.6rem
+        &_button
+            font-size: 1.1rem
+            width: 12rem
+            height: 3rem
+            border-radius: 10px
+    .rent
+        &_card
+            max-width: 16rem
     .contacts
         padding-left: 0
         padding-right: 0
