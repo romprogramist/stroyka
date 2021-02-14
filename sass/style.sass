@@ -120,12 +120,13 @@ h3
         height: 100%
         padding-top: 1rem
         ul
+            padding-left: 0
             height: 100%
             display: flex
             justify-content: center
             list-style-type: none
             li
-                margin-right: 2rem
+                margin-right: 3rem
                 a
                     font-size: 0.95rem
                     font-weight: 400
@@ -279,7 +280,7 @@ h3
                     color: #707070
         &_img
             overflow: hidden
-            img
+
 
 .services_card:hover .hided
     display: block
@@ -327,7 +328,62 @@ h3
         display: none
         text-align: center
         color: white
-
+.aboutUs
+    padding: 64px 0 84px 0
+    background: #F0F0F0
+    margin: 0 auto;
+    h2
+        margin-top: 0
+        text-align: center
+    &_title
+        margin-top: 45px
+        font-size: 26px
+        line-height: 35px
+        text-align: center
+    &_objects
+        //max-width: 1050px
+        margin: 0 auto;
+        display: flex
+        justify-content: space-between
+        margin-top: 80px
+        &_ul
+            font-size: 18px
+            &_li
+                margin-top: 58px
+                text-align: center
+                list-style-type: none
+                cursor: pointer
+                position: relative
+                &_active
+                    &:after  
+                        content: ''
+                        position: absolute;
+                        width: 7px
+                        height: 40px
+                        right: -20px
+                        top: -6px
+                        background-color: #183e87
+                        border-radius: 3px
+        &_wrapper
+            display: flex
+            background-color: #fff
+            height: 500px
+            width: 850px
+            border-radius: 0px 5px 5px 0px
+            display: none
+            &_active
+                display: flex
+            &_bg
+                object-fit: cover
+                width: 60%
+            &_title
+                text-align: center
+                padding: 30px 15px
+                &_header
+                    font-size: 18px
+                    font-weight: 700;
+                &_description
+                    margin-top: 20px
 .contacts
     padding-bottom: 3rem
     &_text
@@ -378,5 +434,6 @@ h3
     &_text
         color: white
         font-size: 0.8rem
+
 
 @import 'media'
